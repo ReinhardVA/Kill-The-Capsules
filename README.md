@@ -1,6 +1,6 @@
 # Kill-The-Capsules
 
-**Name of the Game:** [Kill The Capsules!]   
+**Name of the Game:** Kill The Capsules!   
 
 ## Mechanics
 
@@ -11,7 +11,7 @@
 
 ## Link
   Click the link play the game in browser:
-  **[https://reinhardva.itch.io/kill-the-capsules]**
+  **https://reinhardva.itch.io/kill-the-capsules**
 
 ## Team Members
 
