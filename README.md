@@ -10,7 +10,7 @@
   - **Right Click:** Fire
 
 ## Link
-  Click the link play the game in browser:
+  - Click the link play the game in browser:
   **https://reinhardva.itch.io/kill-the-capsules**
 
 ## Team Members
