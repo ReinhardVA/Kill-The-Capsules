@@ -4,10 +4,10 @@
 
 ## Mechanics
 
-- ** Movement: **
+- **Movement:**
   - **W/A/S/D:**  Move forward/Backward and Sideways
-  - **Space: ** Jump
-  - **Right Click: ** Fire
+  - **Space:** Jump
+  - **Right Click:** Fire
 
 ## Link
   Click the link play the game in browser:
