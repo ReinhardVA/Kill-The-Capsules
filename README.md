@@ -20,7 +20,7 @@
     * Taking damage if Enemy hits Player. Player.cs: 64
     * When the Player died reloading the scene. Player.cs: 68
     * Enemy Death. Enemy.cs: 32
-  - **Enes Malik Yılmaz**
+  - **Enes Malik Yılmaz** - **22360859004**
     * Camera Movement. FPS_Camera.cs: 20
     * Enemy chasing the Player. Enemy.cs: 26
     * Enemy spawning. Enemy.cs: 11
