@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - SpawnManager
+  - AudioManager
   layers:
   - Default
   - TransparentFX
