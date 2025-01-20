@@ -13,6 +13,10 @@ public class MusicManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if(FindObjectsOfType<MusicManager>().Length > 1){
+            Destroy(gameObject);
+            return;
+        }
         DontDestroyOnLoad(musicManager);
         audioSource.volume = _musicVolume;
         slider.value = _musicVolume;
