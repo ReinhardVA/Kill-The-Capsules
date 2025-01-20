@@ -11,7 +11,7 @@
 
 ## Link
   - Click the link play the game in browser:
-  **https://reinhardva.itch.io/kill-the-capsules**
+  **https://reinhardva.itch.io/destroy-robots**
 
 ## Team Members
   - **Eren Kankılınç** - **21360859050**
