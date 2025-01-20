@@ -13,12 +13,15 @@ public class Player : MonoBehaviour
     public float playerLives = 3.0f;
     private Vector3 _velocity;
     private bool _isGrounded;
+    private string _playerHurtSound = "Hurt";
     public SpawnManager spawnManager;
+    public Audio_Manager audioManager;
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
         spawnManager = GameObject.FindGameObjectWithTag("SpawnManager").GetComponent<SpawnManager>();
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<Audio_Manager>();
     }
 
     // Update is called once per frame
@@ -61,13 +64,20 @@ public class Player : MonoBehaviour
         }
     }
     private void OnTriggerEnter(Collider collision){
-        if(collision.gameObject.CompareTag("Enemy")){
+        if(collision.gameObject.CompareTag("Enemy"))
+        {
             playerLives -= 1;
+            PlayPlayerHurtAudio();
             Debug.Log(playerLives);
         }
-        if(playerLives < 1){
+        if (playerLives < 1){
             spawnManager.GameOver();
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+    }
+
+    private void PlayPlayerHurtAudio()
+    {
+        audioManager.PlaySoundAtLocation(_playerHurtSound, transform.position);
     }
 }
