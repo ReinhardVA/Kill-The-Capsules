@@ -1,6 +1,6 @@
-# Kill The Capsules!
+# Destroy Robots!
 
-**Game Name:** Kill The Capsules!   
+**Game Name:** Destroy Robots!  
 
 ## Mechanics
 
@@ -14,14 +14,9 @@
   **https://reinhardva.itch.io/destroy-robots**
 
 ## Team Members
-  - **Eren Kankılınç** - **21360859050**
-    * Player Movement. Player.cs: 51 
-    * Ground Check for Player is on ground or in air. Player.cs: 38
-    * Taking damage if Enemy hits Player. Player.cs: 64
-    * When the Player died reloading the scene. Player.cs: 68
-    * Enemy Death. Enemy.cs: 32
-  - **Enes Malik Yılmaz** - **22360859004**
-    * Camera Movement. FPS_Camera.cs: 20
-    * Enemy chasing the Player. Enemy.cs: 26
-    * Enemy spawning. Enemy.cs: 11
-    * Shooting the Gun. Gun.cs: 20  
+| Eren Kankılınç - 21360859050| Enes Malik Yılmaz - 22360859004|
+| --------------------------- | ------------------------------ |
+| Ana Menü (30x)              | Duraklama Menüsü (20x)         | 
+| Animasyonlar (20x)          | Animasyonlar (10x)             |
+| Ses ve Müzik (20x)          | Ses ve Müzik (10x)             |
+| Asenkronizasyon (5x)        | Asenkronizasyon (5x)           |
